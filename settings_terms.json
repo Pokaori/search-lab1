@@ -1,0 +1,203 @@
+{
+    "terms": {
+        "documents/The Hare And The Tortoise.txt": {
+            "hare": {
+                "count": 3,
+                "tf": 1.0,
+                "idf": -0.40546510810816444,
+                "tf_idf": -0.40546510810816444
+            },
+            "tortoise": {
+                "count": 4,
+                "tf": 1.0,
+                "idf": 0.0,
+                "tf_idf": 0.0
+            },
+            "time": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": -0.40546510810816444,
+                "tf_idf": -0.40546510810816444
+            },
+            "catch": {
+                "count": 1,
+                "tf": 0.6666666666666666,
+                "idf": -0.40546510810816444,
+                "tf_idf": -0.2703100720721096
+            }
+        },
+        "documents/The Fisherman And The Little Fish.txt": {
+            "catch": {
+                "count": 3,
+                "tf": 1.0,
+                "idf": 0.5108256237659907,
+                "tf_idf": 0.5108256237659907
+            },
+            "day": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": -0.1823215567939546,
+                "tf_idf": -0.1823215567939546
+            },
+            "fish": {
+                "count": 2,
+                "tf": 1.0,
+                "idf": 0.9162907318741551,
+                "tf_idf": 0.9162907318741551
+            },
+            "river": {
+                "count": 1,
+                "tf": 0.6666666666666666,
+                "idf": 0.22314355131420976,
+                "tf_idf": 0.1487623675428065
+            }
+        },
+        "documents/The Hare And The Hound.txt": {
+            "day": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": -0.1823215567939546,
+                "tf_idf": -0.1823215567939546
+            },
+            "hare": {
+                "count": 1,
+                "tf": 0.6666666666666666,
+                "idf": 0.5108256237659907,
+                "tf_idf": 0.3405504158439938
+            },
+            "time": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": 0.5108256237659907,
+                "tf_idf": 0.5108256237659907
+            },
+            "beast": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": 0.9162907318741551,
+                "tf_idf": 0.9162907318741551
+            }
+        },
+        "documents/The Two Goats.txt": {
+            "day": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": -0.1823215567939546,
+                "tf_idf": -0.1823215567939546
+            },
+            "river": {
+                "count": 2,
+                "tf": 0.8333333333333333,
+                "idf": 0.22314355131420976,
+                "tf_idf": 0.18595295942850812
+            },
+            "fight": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": 0.9162907318741551,
+                "tf_idf": 0.9162907318741551
+            }
+        },
+        "documents/The Ugly Duckling.txt": {
+            "duck": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": 0.4054651081081644,
+                "tf_idf": 0.4054651081081644
+            },
+            "river": {
+                "count": 3,
+                "tf": 1.0,
+                "idf": -0.2876820724517809,
+                "tf_idf": -0.2876820724517809
+            }
+        },
+        "documents/The Fox And The Goat.txt": {
+            "forest": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": 0.9162907318741551,
+                "tf_idf": 0.9162907318741551
+            },
+            "fox": {
+                "count": 4,
+                "tf": 1.0,
+                "idf": 0.5108256237659907,
+                "tf_idf": 0.5108256237659907
+            },
+            "day": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": -0.1823215567939546,
+                "tf_idf": -0.1823215567939546
+            },
+            "goat": {
+                "count": 4,
+                "tf": 1.0,
+                "idf": 0.9162907318741551,
+                "tf_idf": 0.9162907318741551
+            }
+        },
+        "documents/The Fox And The Grapes.txt": {
+            "day": {
+                "count": 1,
+                "tf": 1.0,
+                "idf": -0.1823215567939546,
+                "tf_idf": -0.1823215567939546
+            },
+            "fox": {
+                "count": 1,
+                "tf": 0.625,
+                "idf": 0.5108256237659907,
+                "tf_idf": 0.3192660148537442
+            }
+        }
+    },
+    "indexes": {
+        "fox": {
+            "doc_count": 2
+        },
+        "foxes": {
+            "doc_count": 0
+        },
+        "wolf": {
+            "doc_count": 0
+        },
+        "goat": {
+            "doc_count": 1
+        },
+        "forest": {
+            "doc_count": 1
+        },
+        "fish": {
+            "doc_count": 1
+        },
+        "hare": {
+            "doc_count": 2
+        },
+        "tortoise": {
+            "doc_count": 1
+        },
+        "river": {
+            "doc_count": 3
+        },
+        "duck": {
+            "doc_count": 1
+        },
+        "catch": {
+            "doc_count": 2
+        },
+        "beast": {
+            "doc_count": 1
+        },
+        "time": {
+            "doc_count": 2
+        },
+        "fight": {
+            "doc_count": 1
+        },
+        "day": {
+            "doc_count": 5
+        }
+    }
+}
